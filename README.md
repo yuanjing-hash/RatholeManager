@@ -40,10 +40,8 @@ Rathole Manager 是一个用于管理 `rathole` 反向代理工具的 Web UI。�
     ```
 
 3.  **安装依赖**
-    > **建议**: 项目当前缺少 `requirements.txt` 文件。请在虚拟环境中运行以下命令生成它：
-    > `pip freeze > requirements.txt`
     ```bash
-    pip install fastapi uvicorn sqlalchemy "databases[sqlite]" paramiko cryptography jinja2 python-jose passlib bcrypt
+    pip install -r requirements.txt
     ```
 
 4.  **创建数据库**
