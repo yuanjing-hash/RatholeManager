@@ -24,7 +24,7 @@ Rathole Manager 是一个用于管理 `rathole` 反向代理工具的 Web UI。�
 ### 先决条件
 
 - Python 3.11+
-- Node.js 18+ 和 npm
+- Node.js 22+ 和 npm
 
 ### 后端设置
 
